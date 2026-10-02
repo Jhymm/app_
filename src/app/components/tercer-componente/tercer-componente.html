@@ -1,0 +1,83 @@
+<p>tercer-componente works!</p>
+<app-tercer-componente></app-tercer-componente>
+<!-- SECCIÓN: NIVELES Y MODALIDADES -->
+<section id="niveles-modalidades" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold text-primary">Niveles de Aprendizaje y Modalidades</h2>
+    <div class="row g-4">
+      <!-- Niveles -->
+      <div class="col-md-6">
+        <div class="p-4 border rounded bg-white shadow-sm h-100">
+          <h3 class="h4 text-primary fw-bold mb-3"><i class="bi bi-bar-chart me-2"></i>Niveles de Aprendizaje</h3>
+          <div class="accordion" id="accordionNiveles">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#basico">
+                  Básico (A1 - A2)
+                </button>
+              </h2>
+              <div id="basico" class="accordion-collapse collapse show" data-bs-parent="#accordionNiveles">
+                <div class="accordion-body">
+                  Domina las estructuras gramaticales básicas y vocabulario cotidiano para interactuar día a día.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#intermedio">
+                  Intermedio (B1 - B2)
+                </button>
+              </h2>
+              <div id="intermedio" class="accordion-collapse collapse" data-bs-parent="#accordionNiveles">
+                <div class="accordion-body">
+                  Desarrolla la fluidez verbal y la capacidad de entender y redactar textos complejos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#avanzado">
+                  Avanzado (C1 - C2)
+                </button>
+              </h2>
+              <div id="avanzado" class="accordion-collapse collapse" data-bs-parent="#accordionNiveles">
+                <div class="accordion-body">
+                  Comprensión y expresión al nivel de un hablante nativo en entornos profesionales y académicos.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modalidades -->
+      <div class="col-md-6">
+        <div class="p-4 border rounded bg-white shadow-sm h-100">
+          <h3 class="h4 text-primary fw-bold mb-3"><i class="bi bi-laptop me-2"></i>Modalidades de Enseñanza</h3>
+          <div class="list-group">
+            <div class="list-group-item p-3">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1 fw-bold">Presencial</h5>
+                <span class="badge bg-primary">En Campus</span>
+              </div>
+              <p class="mb-0 text-muted small">Clases dinámicas e interactivas en nuestras instalaciones físicas.</p>
+            </div>
+            <div class="list-group-item p-3">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1 fw-bold">Virtual En Vivo</h5>
+                <span class="badge bg-success">Online</span>
+              </div>
+              <p class="mb-0 text-muted small">Sesiones sincrónicas con el profesor a través de videoconferencias.</p>
+            </div>
+            <div class="list-group-item p-3">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1 fw-bold">Híbrida</h5>
+                <span class="badge bg-secondary">Combinada</span>
+              </div>
+              <p class="mb-0 text-muted small">Sesiones presenciales combinadas con módulos online autogestionados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
